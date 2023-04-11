@@ -1,0 +1,78 @@
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100vh;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #F2F2F2;
+
+    
+  }
+
+  .addressGrid{
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    grid-template-rows: 0.5fr;
+    gap:20px;
+    
+  }
+  
+
+  .pricegrid{
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem 15rem;
+    grid-template-rows: 0.5fr;
+    
+    gap:14px;
+  }
+
+  @media only screen and (max-width:700px) {
+    .pricegrid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .addressGrid{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .accomadationgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    gap:2px;
+
+  }
+
+  .ammenitiesgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr;
+  }
+
+  .facilities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr;
+  }
+
+  .upload__image-wrapper{
+    font-size: 17px;
+    color: red;
+
+  }
+
+  
+  
+  @media screen and (max-width: 768px) {
+    .box-primary {
+      display: none;
+    }
+    .box {
+      grid-template-columns: 100%;
+    }
+  }
+  

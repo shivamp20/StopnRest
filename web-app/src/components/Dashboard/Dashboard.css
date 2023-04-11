@@ -1,0 +1,139 @@
+.dbMain {
+  width: 100%;
+  min-height: 100vh;
+  height: min-content;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.db-particle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.db-content {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.db-cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 10px;
+  z-index: 9999;
+  box-shadow: 0px 0px 20px #828282;
+}
+
+.db-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  overflow-wrap: break-word;
+  text-align: center;
+  background-color: #0a223d;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  color: #fff;
+}
+
+.db-info h2 {
+  color: #008cff;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.db-cont img {
+  object-fit: cover;
+  object-position: center;
+  width: 500px;
+  height: 600px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.db-button {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 10px;
+  gap: 5px;
+  padding: 5px 15px;
+  border: solid 1px #008cff;
+  background-color: transparent;
+  color: #008cff;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.db-button:hover {
+  background-color: #008cff;
+  border-color: #008cff;
+  color: #fff;
+}
+
+.db-rooms {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  border-bottom: solid 1px #008cff;
+}
+
+.db-rooms-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.db-rooms-card span {
+  font-size: 25px;
+  color: #008cff;
+  font-weight: bold;
+}
+
+.db-foot {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.db-foot-2 {
+  margin-top: 10px;
+}
+
+.db-foot-2 .social-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .db-cont {
+    grid-template-columns: 1fr;
+    margin: 10px;
+  }
+
+  .db-cont img {
+    display: none;
+  }
+
+  .db-info {
+    padding: 15px;
+    border-radius: 10px;
+  }
+}

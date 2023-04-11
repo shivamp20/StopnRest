@@ -1,0 +1,143 @@
+.filterhead{
+    font-weight: 600;
+}
+.headtext{
+    display: flex;
+    margin-left: 30px;
+}
+.slider{
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+.checkbox{
+    margin-left: 30px;
+    padding-bottom: 15px;
+
+
+}
+.card{
+    height: 295px;
+}
+.image-gallery{
+  max-width: 434px;
+}
+.starandvalue{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+
+}
+.starcontent{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.numrating{
+    opacity: 0.8;
+
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  .eminityicon{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.8;
+
+  }
+  .eminityiconfirst{
+    display: flex;
+    flex-direction: row;
+    opacity: 0.8;
+  }
+  .eminities{
+    margin-left: -40px;
+  }
+  .pricerow{
+    display: flex  !important;
+    flex-direction: row;
+    align-items: center;
+  }
+  .lastrow{
+    display: flex;
+    flex-direction: row;
+    margin-top: 65px;
+  }
+
+  .carousel{
+    margin-right: 25px;
+  }
+
+  .MuiDrawer-paper {
+ 
+    position: relative !important;
+    z-index: 0 !important;
+
+  }
+  .css-k008qs {
+    flex-direction: column;
+  }
+
+
+  @media only screen and (max-width: 450px) {
+    .image-gallery-slide-wrapper {
+        width:317px !important;
+    }
+    .thumbnails-swipe-horizontal{
+      width:302px  !important;
+    }
+    .card-section{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+
+    .nav-card{
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .card-content{
+      width:330px !important;
+    }
+    .MuiPaper-root{
+      height: 700px !important;
+      padding: 6px !important;
+    }
+    .css-gopjag-MuiGrid-root{
+      padding-top: 26px !important;
+    }
+    .lastrow{
+      width: 400px;
+      flex-direction: column;
+      margin-top: 0px;
+    }
+    .priceList-row {
+      padding-top: 30px !important;
+      margin-left: 0px !important;
+      padding-left: 0px !important;
+      padding-bottom: 20px !important;
+    }
+  }
+
+  .priceList-row {
+    padding-top: 25px;
+    margin-left: 30px;
+    padding-left: 175px ;
+  }
+  
+  .card-content{
+    width:1350px
+  }
+
+  .card-section{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-card{
+    display: flex;
+    flex-direction: row;
+  }
+

@@ -1,0 +1,767 @@
+{
+  "HotelsData": [
+    {
+      "id": 1,
+      "name": "Hotel Daspalla",
+      "address": "jagadamba,vizag",
+      "city": "vizag",
+      "actualprice": 1500,
+      "offerprice": 750,
+      "offerPercentage": 50,
+      "AccomodationType": [
+        {
+          "id": 1,
+          "type": "Hotels",
+          "availability": true
+        },
+        {
+          "id": 2,
+          "type": "Hostels",
+          "availability": false
+        }
+      ],
+      "checkInFeatures": [
+        {
+          "id": 1,
+          "checkInFeature": "payAtHotel",
+          "availability": true
+        }
+      ],
+      "amenities": [
+        {
+          "id": 1,
+          "amenity": "Ac",
+          "avaialable": false
+        },
+        {
+          "id": 2,
+          "amenity": "Tv",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "amenity": "QueenSize_Bed",
+          "avaialable": true
+        },
+        {
+          "id": 4,
+          "amenity": "Reception",
+          "avaialable": true
+        },
+        {
+          "id": 5,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 6,
+          "amenity": "Parking_Facility",
+          "avaialable": true
+        },
+        {
+          "id": 7,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 8,
+          "amenity": "Power_backup",
+          "avaialable": true
+        },
+        {
+          "id": 9,
+          "amenity": "CCTV_Cameras",
+          "avaialable": true
+        },
+        {
+          "id": 10,
+          "amenity": "Elevator",
+          "avaialable": true
+        },
+        {
+          "id": 11,
+          "amenity": "Refrigerator",
+          "avaialable": true
+        },
+        {
+          "id": 12,
+          "amenity": "Seating_Area",
+          "avaialable": true
+        },
+        {
+          "id": 13,
+          "amenity": "Mini_Fridge",
+          "avaialable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/hotel_images/h1/s1.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/hotel_images/h1/s2.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/hotel_images/h1/s3.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/hotel_images/h1/s4.jpg"
+        },
+        {
+          "id": 5,
+          "image": "/hotel_images/h1/s5.jpg"
+        }
+      ],
+      "Collections": [
+        {
+          "id": 1,
+          "Collection": "Family_Hotel",
+          "avaialable": false
+        },
+        {
+          "id": 2,
+          "Collection": "Local_ID's_accepted",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "Collection": "Hotels_Welcomes_Couples",
+          "avaialable": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "AMC Comforts",
+      "address": "Indra nagar,near metro pillar,Bangalore",
+      "city": "Bangalore",
+      "actualprice": 5000,
+      "offerprice": 3000,
+      "offerPercentage": 40,
+      "AccomodationType": [
+        {
+          "id": 1,
+          "type": "Hotels",
+          "availability": true
+        },
+        {
+          "id": 2,
+          "type": "Hostels",
+          "availability": false
+        }
+      ],
+      "checkInFeatures": [
+        {
+          "id": 1,
+          "checkInFeature": "payAtHotel",
+          "availability": false
+        }
+      ],
+      "amenities": [
+        {
+          "id": 1,
+          "amenity": "Ac",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "amenity": "Tv",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "amenity": "QueenSize_Bed",
+          "avaialable": true
+        },
+        {
+          "id": 4,
+          "amenity": "Reception",
+          "avaialable": true
+        },
+        {
+          "id": 5,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 6,
+          "amenity": "Parking_Facility",
+          "avaialable": true
+        },
+        {
+          "id": 7,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 8,
+          "amenity": "Power_backup",
+          "avaialable": true
+        },
+        {
+          "id": 9,
+          "amenity": "CCTV_Cameras",
+          "avaialable": true
+        },
+        {
+          "id": 10,
+          "amenity": "Elevator",
+          "avaialable": true
+        },
+        {
+          "id": 11,
+          "amenity": "Refrigerator",
+          "avaialable": true
+        },
+        {
+          "id": 12,
+          "amenity": "Seating_Area",
+          "avaialable": true
+        },
+        {
+          "id": 13,
+          "amenity": "Mini_Fridge",
+          "avaialable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/hotel_images/h2/a1.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/hotel_images/h2/a2.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/hotel_images/h2/a3.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/hotel_images/h2/a4.jpg"
+        }
+      ],
+      "Collections": [
+        {
+          "id": 1,
+          "Collection": "Family_Hotel",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "Collection": "Local_ID's_accepted",
+          "avaialable": false
+        },
+        {
+          "id": 3,
+          "Collection": "Hotels_Welcomes_Couples",
+          "avaialable": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bloomrooms",
+      "address": "Rajaji nagar,Bangalore",
+      "city": "Bangalore",
+      "actualprice": 2500,
+      "offerprice": 1500,
+      "offerPercentage": 25,
+      "AccomodationType": [
+        {
+          "id": 1,
+          "type": "Hotels",
+          "availability": false
+        },
+        {
+          "id": 2,
+          "type": "Hostels",
+          "availability": true
+        }
+      ],
+      "checkInFeatures": [
+        {
+          "id": 1,
+          "checkInFeature": "payAtHotel",
+          "availability": true
+        }
+      ],
+      "amenities": [
+        {
+          "id": 1,
+          "amenity": "Ac",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "amenity": "Tv",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "amenity": "QueenSize_Bed",
+          "avaialable": true
+        },
+        {
+          "id": 4,
+          "amenity": "Reception",
+          "avaialable": true
+        },
+        {
+          "id": 5,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 6,
+          "amenity": "Parking_Facility",
+          "avaialable": false
+        },
+        {
+          "id": 7,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 8,
+          "amenity": "Power_backup",
+          "avaialable": false
+        },
+        {
+          "id": 9,
+          "amenity": "CCTV_Cameras",
+          "avaialable": true
+        },
+        {
+          "id": 10,
+          "amenity": "Elevator",
+          "avaialable": true
+        },
+        {
+          "id": 11,
+          "amenity": "Refrigerator",
+          "avaialable": true
+        },
+        {
+          "id": 12,
+          "amenity": "Seating_Area",
+          "avaialable": false
+        },
+        {
+          "id": 13,
+          "amenity": "Mini_Fridge",
+          "avaialable": false
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/hotel_images/h3/c1.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/hotel_images/h3/c2.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/hotel_images/h3/c3.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/hotel_images/h3/c4.jpg"
+        }
+      ],
+      "Collections": [
+        {
+          "id": 1,
+          "Collection": "Family_Hotel",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "Collection": "Local_ID's_accepted",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "Collection": "Hotels_Welcomes_Couples",
+          "avaialable": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hotel Arafa Inn",
+      "address": "KR puram,Bangalore",
+      "city": "Bangalore",
+      "actualprice": 5000,
+      "offerprice": 3500,
+      "offerPercentage": 25,
+      "AccomodationType": [
+        {
+          "id": 1,
+          "type": "Hotels",
+          "availability": true
+        },
+        {
+          "id": 2,
+          "type": "Hostels",
+          "availability": false
+        }
+      ],
+      "checkInFeatures": [
+        {
+          "id": 1,
+          "checkInFeature": "payAtHotel",
+          "availability": true
+        }
+      ],
+      "amenities": [
+        {
+          "id": 1,
+          "amenity": "Ac",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "amenity": "Tv",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "amenity": "QueenSize_Bed",
+          "avaialable": true
+        },
+        {
+          "id": 4,
+          "amenity": "Reception",
+          "avaialable": true
+        },
+        {
+          "id": 5,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 6,
+          "amenity": "Parking_Facility",
+          "avaialable": true
+        },
+        {
+          "id": 7,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 8,
+          "amenity": "Power_backup",
+          "avaialable": false
+        },
+        {
+          "id": 9,
+          "amenity": "CCTV_Cameras",
+          "avaialable": true
+        },
+        {
+          "id": 10,
+          "amenity": "Elevator",
+          "avaialable": true
+        },
+        {
+          "id": 11,
+          "amenity": "Refrigerator",
+          "avaialable": false
+        },
+        {
+          "id": 12,
+          "amenity": "Seating_Area",
+          "avaialable": true
+        },
+        {
+          "id": 13,
+          "amenity": "Mini_Fridge",
+          "avaialable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/hotel_images/h4/l1.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/hotel_images/h4/l2.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/hotel_images/h4/l3.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/hotel_images/h4/l4.jpg"
+        }
+      ],
+      "Collections": [
+        {
+          "id": 1,
+          "Collection": "Family_Hotel",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "Collection": "Local_ID's_accepted",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "Collection": "Hotels_Welcomes_Couples",
+          "avaialable": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Ramee Strand inn",
+      "address": "MG road,Bangalore",
+      "city": "Bangalore",
+      "actualprice": 4500,
+      "offerprice": 3500,
+      "offerPercentage": 20,
+      "AccomodationType": [
+        {
+          "id": 1,
+          "type": "Hotels",
+          "availability": true
+        },
+        {
+          "id": 2,
+          "type": "Hostels",
+          "availability": false
+        }
+      ],
+      "checkInFeatures": [
+        {
+          "id": 1,
+          "checkInFeature": "payAtHotel",
+          "availability": false
+        }
+      ],
+      "amenities": [
+        {
+          "id": 1,
+          "amenity": "Ac",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "amenity": "Tv",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "amenity": "QueenSizeB_ed",
+          "avaialable": true
+        },
+        {
+          "id": 4,
+          "amenity": "Reception",
+          "avaialable": true
+        },
+        {
+          "id": 5,
+          "amenity": "Free_Wifi",
+          "avaialable": false
+        },
+        {
+          "id": 6,
+          "amenity": "Parking_Facility",
+          "avaialable": true
+        },
+        {
+          "id": 7,
+          "amenity": "Free_Wifi",
+          "avaialable": true
+        },
+        {
+          "id": 8,
+          "amenity": "Power_backup",
+          "avaialable": true
+        },
+        {
+          "id": 9,
+          "amenity": "CCTV_Cameras",
+          "avaialable": true
+        },
+        {
+          "id": 10,
+          "amenity": "Elevator",
+          "avaialable": true
+        },
+        {
+          "id": 11,
+          "amenity": "Refrigerator",
+          "avaialable": false
+        },
+        {
+          "id": 12,
+          "amenity": "Seating_Area",
+          "avaialable": true
+        },
+        {
+          "id": 13,
+          "amenity": "Mini_Fridge",
+          "avaialable": true
+        }
+      ],
+      "images": [
+        {
+          "id": 1,
+          "image": "/hotel_images/h5/o1.jpg"
+        },
+        {
+          "id": 2,
+          "image": "/hotel_images/h5/o2.jpg"
+        },
+        {
+          "id": 3,
+          "image": "/hotel_images/h5/o3.jpg"
+        },
+        {
+          "id": 4,
+          "image": "/hotel_images/h5/o4.jpg"
+        }
+      ],
+      "Collections": [
+        {
+          "id": 1,
+          "Collection": "Family_Hotel",
+          "avaialable": true
+        },
+        {
+          "id": 2,
+          "Collection": "Local_ID's_accepted",
+          "avaialable": true
+        },
+        {
+          "id": 3,
+          "Collection": "Hotels_Welcomes_Couples",
+          "avaialable": true
+        }
+      ]
+    },
+    {
+      "property": "Grand Shereton",
+      "city": "Pune",
+      "address": "Lohegaon janardan Nagar",
+      "original": "1200",
+      "offerPercentage": "10",
+      "offer": "200",
+      "Images": [],
+      "totalRoom": [
+        {
+          "id": 1,
+          "value": "200"
+        }
+      ],
+      "checkInFeatures": [
+        {
+          "id": 1,
+          "checkInFeatures": "payAtHotel",
+          "availability": true
+        }
+      ],
+      "ammenities": [
+        {
+          "id": 1,
+          "amenity": "Ac",
+          "avaialable": false
+        },
+        {
+          "id": 2,
+          "amenity": "Tv",
+          "avaialable": false
+        },
+        {
+          "id": 3,
+          "amenity": "QueenSize Bed",
+          "avaialable": false
+        },
+        {
+          "id": 4,
+          "amenity": "Reception",
+          "avaialable": false
+        },
+        {
+          "id": 5,
+          "amenity": "Free Wifi",
+          "avaialable": false
+        },
+        {
+          "id": 6,
+          "amenity": "Parking Facility",
+          "avaialable": true
+        },
+        {
+          "id": 7,
+          "amenity": "Power backup",
+          "avaialable": false
+        },
+        {
+          "id": 8,
+          "amenity": "CCTV Cameras",
+          "avaialable": false
+        },
+        {
+          "id": 9,
+          "amenity": "Elevator",
+          "avaialable": false
+        },
+        {
+          "id": 10,
+          "Facility": "Refrigerator",
+          "available": false
+        },
+        {
+          "id": 11,
+          "Facility": "Seating Area",
+          "available": true
+        }
+      ],
+      "AccomadationType": [
+        {
+          "id": 1,
+          "type": "Hotels",
+          "availability": true
+        },
+        {
+          "id": 2,
+          "type": "Hostels",
+          "availability": false
+        }
+      ],
+      "Collections": [
+        {
+          "id": "1",
+          "collection": "Family Hotel",
+          "available": false
+        },
+        {
+          "id": "2",
+          "Facility": "Local IDs accepted",
+          "available": false
+        },
+        {
+          "id": "3",
+          "Facility": "Hotel Welcomes couple",
+          "available": false
+        }
+      ],
+      "id": 6
+    }
+  ]
+}
