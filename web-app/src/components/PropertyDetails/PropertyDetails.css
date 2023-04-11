@@ -1,0 +1,167 @@
+
+.pro {
+  font-family: sans-serif;
+  text-align: left;
+  background-color:  white;
+  padding-top: 4rem;
+  
+}
+
+.detail{
+  font-size: 14px;
+  background-color: #008cff;
+  color: white;
+  border-radius: 4px solid white;
+}
+.located{
+    font-size: 14px;
+    background-color: #fef6e9;
+    color: #d38c17;
+    width: fit-content;
+    border: 1px solid #d38c17;
+    
+}
+
+.check{
+  align-items: center;
+    padding: 2px;
+    border-radius: 2px;
+    margin-top: 16px;
+    width: fit-content;
+    border: 2px solid #4A970F;
+}
+
+
+
+.comp{
+  border-radius: 4px;
+  border: solid 1px #eee;
+  background-color: #fff6ee;
+  padding: 4px;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+.desc{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 2px;
+}
+
+.dis{
+  line-height: 1.5;
+  color: rgba(0,0,0,0.7);
+  font-size: 14px;
+  margin: 0px;
+  word-spacing: 2px;
+}
+
+.ami{
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+.eminityicon{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  opacity: 0.8;
+
+}
+.eminityiconfirst{
+  display: flex;
+  flex-direction: row;
+  opacity: 0.8;
+}
+.eminities{
+  align-items: flex-start;
+}
+.ic{
+  display: flex; 
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.Ic{
+  display: flex;
+  align-items: center;
+  width: 33%;
+  margin-top: 18px;
+}
+
+.policy{
+  font-size: 22px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.checkin{
+  /* display: flex;
+  font-size: 14px;
+  color: #222; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.3fr;
+  
+}
+
+.ck{ 
+  margin-top: 14px;
+  font-size: 14px;
+  background-color: beige;
+  color:black;
+  width: fit-content;
+  border: 3px solid #d38c17;
+}
+.list{
+  margin-top: 16px;
+
+}
+
+.date-div {
+  display: flex;
+  border-radius: 4px;
+  padding: 0px;
+  align-items: center;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  margin-top: 18px;
+}
+
+.form-main1 {
+  max-width: 1050px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  display: flex;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+
+.form-cont1{
+  display: flex;
+  gap: 10px;
+}
+
+.range{
+  color: #222;
+}
+
+.range1{
+  font-size: 12px;
+  color: #6d787d;
+  margin-top: 10px;
+}
+
+.button{
+  margin-top: 16px;
+  
+}

@@ -1,0 +1,257 @@
+body {
+  box-sizing: border-box;
+  overflow: scroll;
+  color: black;
+}
+.maincontainer {
+  background: url("./bookingback.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.paperstyle {
+  max-width: fit-content;
+  max-height: fit-content;
+  border: 3px solid black;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #008cff;
+  font-size: 2rem;
+  height: 13vh;
+}
+
+.transactionID {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+}
+
+.stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  height: 12vh;
+}
+
+.row {
+  display: flex;
+}
+
+.hotelname {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #008cff;
+  height: 12vh;
+}
+
+.btncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.hotelparent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotelcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #008cff;
+  border-radius: 12px;
+  width: 30rem;
+}
+
+.hoteldetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #008cff;
+  height: 15vh;
+  width: 40rem;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 80%;
+    position: relative;
+    left: 15px;
+  }
+  .stars {
+    height: 22vh;
+  }
+  .container2 {
+    width: 80%;
+    position: relative;
+    left: 15px;
+  }
+  .hotelname {
+    height: 22vh;
+    font-size: 10px;
+  }
+  .headtag {
+    font-size: 30px;
+  }
+
+  .headbook {
+    font-size: 2rem;
+  }
+  .btncontainer {
+    margin: 0 auto;
+  }
+
+  .hotelcontainer {
+    border: none;
+  }
+
+  .hoteldetails {
+    grid-template-columns: repeat(1, 1fr);
+    height: 23vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .paperstyle {
+    max-width: fit-content;
+    height: 90vh;
+  }
+}
+
+.bc_main {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+}
+.bc_main_d_1 {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #008cff;
+  left: -40px;
+  top: 30px;
+}
+.bc_main_d_2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #008cff;
+  left: 70px;
+  bottom: 30px;
+}
+.bc_main_d_3 {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  background-color: #008cff;
+  right: 70px;
+  top: 20%;
+}
+.bc_main_d_4 {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #008cff;
+  right: 150px;
+  bottom: -25px;
+}
+.bc_main img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+.bc_info {
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  word-break: keep-all;
+}
+.bc_info_head {
+  color: #4eacfd;
+  width: 100%;
+}
+.bc_info_head h2 {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.bc_info_head_icon {
+  width: 200px;
+}
+.bc_info_ow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.bc_info_div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.bc_info_ow p {
+  font-weight: bold;
+  color: #4eacfd;
+}
+.bc_info button {
+  margin-top: 10px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 10px 40px;
+  outline: none;
+  background-color: #008cff37;
+  transition: all 0.3s ease-in-out;
+}
+.bc_info button:hover {
+  background-color: #008cff;
+  color: #fff;
+}

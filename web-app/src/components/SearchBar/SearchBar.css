@@ -1,0 +1,89 @@
+.main-cont {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #0a223d;
+  color: #fff;
+  border-top: 1px solid #4eacfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  position: relative;
+  width: 100%;
+  min-width: 900px;
+  padding: 20px 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-main {
+  width: 100%;
+  max-width: 900px;
+  padding: 20px 20px 40px;
+  border: 2px solid #4eacfd;
+  box-shadow: #4eacfd 0px 0px 10px;
+  border-radius: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.selector{
+  width: 100%;
+  
+}
+
+
+
+.form-cont {
+  display: flex;
+  gap: 10px;
+  /* width: 100%; */
+}
+
+.searchButton {
+  position: absolute;
+  bottom: 25px;
+  padding: 5px 20px;
+  border: 2px solid #4eacfd;
+  background-color: #0a223d;
+  border-radius: 20px;
+  box-shadow: #4eacfd 0px 0px 10px;
+  letter-spacing: 3px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.searchButton:hover {
+  background-color: #4eacfd;
+}
+
+.searchButton-disabled {
+  box-shadow: none !important;
+}
+
+.searchButton-disabled:hover {
+  box-shadow: none !important;
+  background-color: #0a223d !important;
+}
+
+.date-picker {
+  background-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .form-card {
+    min-width: 100%;
+  }
+  .form-main {
+    flex-direction: column;
+  }
+  .form-cont {
+    flex-direction: column;
+  }
+}

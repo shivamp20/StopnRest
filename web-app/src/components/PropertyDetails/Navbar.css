@@ -1,0 +1,32 @@
+.nav {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a223d;
+  padding: 0 60px;
+  box-sizing: border-box;
+}
+
+.nav h2 {
+  color: #008cff;
+  letter-spacing: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding: 0px 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nav {
+    padding: 0px 10px;
+  }
+  .nav h2 {
+    font-size: 16px;
+  }
+}
